@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.14.2/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.14.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.2/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.14.2/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.14.2/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script defer>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCwv7PoBsIqMRLNzrSjHomdjcn1MvF8JE0",
+        authDomain: "photopage-lw.firebaseapp.com",
+        databaseURL: "https://photopage-lw.firebaseio.com",
+        projectId: "photopage-lw",
+        storageBucket: "photopage-lw.appspot.com",
+        messagingSenderId: "526278087438",
+        appId: "1:526278087438:web:a7722661a46ffa4c0c3d5f"
+      };
+      // Initialize Firebase KP
+    </script>
+    <script defer src="script.js"></script>
+    <script defer src="script2.js"></script>
+  </head>
+  <body>
+    <header>
+      <p id="logo"><a href="index.html">logo</a></p>
+      <ul id="header-nav">
+          <li><i id="hamburger" class="material-icons">dehaze</i></li>
+          <li class="toggle"><a href="gallery.html">Gallery</a></li>
+          <li class="toggle"><a href="#">Blog</a></li>
+          <li class="toggle"><a href="#">About</a></li>
+      </ul>
+  </header>
+    <main>
+      <div id="gallery">
+        <i id="arrow_left" class="material-icons" title="Previous Photo">keyboard_arrow_left</i>
+        <i id="arrow_right" class="material-icons" title="Next Photo">keyboard_arrow_right</i>
+      </div>
+    </main>
+    <footer>
+      <p>&copy Lucas Wiegand</p>
+    </footer>
+  </body>
+</html>

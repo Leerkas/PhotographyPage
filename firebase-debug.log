@@ -1,0 +1,226 @@
+[debug] [2020-04-29T19:24:52.560Z] ----------------------------------------------------------------------
+[debug] [2020-04-29T19:24:52.565Z] Command:       C:\Users\lucas\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\lucas\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2020-04-29T19:24:52.565Z] CLI Version:   8.1.1
+[debug] [2020-04-29T19:24:52.565Z] Platform:      win32
+[debug] [2020-04-29T19:24:52.566Z] Node Version:  v12.16.1
+[debug] [2020-04-29T19:24:52.568Z] Time:          Wed Apr 29 2020 21:24:52 GMT+0200 (GMT+02:00)
+[debug] [2020-04-29T19:24:52.568Z] ----------------------------------------------------------------------
+[debug] [2020-04-29T19:24:52.568Z] 
+[debug] [2020-04-29T19:24:52.588Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-29T19:24:52.589Z] > authorizing via signed-in user
+[debug] [2020-04-29T19:24:52.589Z] [iam] checking project photopage-lw for permissions ["firebase.projects.get"]
+[debug] [2020-04-29T19:24:52.596Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-29T19:24:52.597Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-29T19:24:52.837Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 29 Apr 2020 19:24:53 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-29T19:24:52.894Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/photopage-lw:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-04-29T19:24:53.815Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 29 Apr 2020 19:24:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=771","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-29T19:24:53.822Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw  
+ 
+[debug] [2020-04-29T19:24:54.106Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 29 Apr 2020 19:24:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\lucas\Desktop\HTML Projekte\PhotographyPage1'...
+[info] 
+[debug] [2020-04-29T19:24:54.125Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw/webApps/-/config  
+ 
+[debug] [2020-04-29T19:24:55.162Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 29 Apr 2020 19:24:56 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2020-04-29T20:16:08.693Z] ----------------------------------------------------------------------
+[debug] [2020-04-29T20:16:08.713Z] Command:       C:\Users\lucas\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\lucas\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2020-04-29T20:16:08.714Z] CLI Version:   8.1.1
+[debug] [2020-04-29T20:16:08.714Z] Platform:      win32
+[debug] [2020-04-29T20:16:08.715Z] Node Version:  v12.16.1
+[debug] [2020-04-29T20:16:08.719Z] Time:          Wed Apr 29 2020 22:16:08 GMT+0200 (GMT+02:00)
+[debug] [2020-04-29T20:16:08.720Z] ----------------------------------------------------------------------
+[debug] [2020-04-29T20:16:08.720Z] 
+[debug] [2020-04-29T20:16:08.828Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-29T20:16:08.830Z] > authorizing via signed-in user
+[debug] [2020-04-29T20:16:08.831Z] [iam] checking project photopage-lw for permissions ["firebase.projects.get"]
+[debug] [2020-04-29T20:16:08.842Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-29T20:16:08.843Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-29T20:16:09.070Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 29 Apr 2020 20:16:09 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-29T20:16:09.107Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/photopage-lw:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-04-29T20:16:10.024Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 29 Apr 2020 20:16:10 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=721","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-29T20:16:10.031Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw  
+ 
+[debug] [2020-04-29T20:16:10.331Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 29 Apr 2020 20:16:10 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\lucas\Desktop\HTML Projekte\PhotographyPage1'...
+[info] 
+[debug] [2020-04-29T20:16:10.358Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw/webApps/-/config  
+ 
+[debug] [2020-04-29T20:16:10.981Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 29 Apr 2020 20:16:11 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2020-04-30T15:17:22.255Z] ----------------------------------------------------------------------
+[debug] [2020-04-30T15:17:22.260Z] Command:       C:\Users\lucas\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\lucas\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2020-04-30T15:17:22.261Z] CLI Version:   8.1.1
+[debug] [2020-04-30T15:17:22.261Z] Platform:      win32
+[debug] [2020-04-30T15:17:22.261Z] Node Version:  v12.16.1
+[debug] [2020-04-30T15:17:22.264Z] Time:          Thu Apr 30 2020 17:17:22 GMT+0200 (GMT+02:00)
+[debug] [2020-04-30T15:17:22.264Z] ----------------------------------------------------------------------
+[debug] [2020-04-30T15:17:22.264Z] 
+[debug] [2020-04-30T15:17:22.318Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-30T15:17:22.320Z] > authorizing via signed-in user
+[debug] [2020-04-30T15:17:22.321Z] [iam] checking project photopage-lw for permissions ["firebase.projects.get"]
+[debug] [2020-04-30T15:17:22.326Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-30T15:17:22.328Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-30T15:17:22.546Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 30 Apr 2020 15:17:23 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-30T15:17:22.595Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/photopage-lw:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-04-30T15:17:23.567Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 30 Apr 2020 15:17:23 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=773","alt-svc":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-30T15:17:23.571Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw  
+ 
+[debug] [2020-04-30T15:17:23.976Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 30 Apr 2020 15:17:24 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\lucas\Desktop\HTML Projekte\PhotographyPage1'...
+[info] 
+[debug] [2020-04-30T15:17:23.997Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw/webApps/-/config  
+ 
+[debug] [2020-04-30T15:17:24.795Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 30 Apr 2020 15:17:25 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2020-05-01T11:25:46.846Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T11:25:46.851Z] Command:       C:\Users\lucas\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\lucas\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2020-05-01T11:25:46.852Z] CLI Version:   8.1.1
+[debug] [2020-05-01T11:25:46.852Z] Platform:      win32
+[debug] [2020-05-01T11:25:46.852Z] Node Version:  v12.16.1
+[debug] [2020-05-01T11:25:46.854Z] Time:          Fri May 01 2020 13:25:46 GMT+0200 (GMT+02:00)
+[debug] [2020-05-01T11:25:46.855Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T11:25:46.855Z] 
+[debug] [2020-05-01T11:25:46.885Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-01T11:25:46.886Z] > authorizing via signed-in user
+[debug] [2020-05-01T11:25:46.886Z] [iam] checking project photopage-lw for permissions ["firebase.projects.get"]
+[debug] [2020-05-01T11:25:46.893Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-01T11:25:46.893Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-05-01T11:25:47.075Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 11:25:47 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-01T11:25:47.103Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/photopage-lw:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-01T11:25:47.436Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 11:25:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=173","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-01T11:25:47.438Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw  
+ 
+[debug] [2020-05-01T11:25:47.846Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 11:25:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\lucas\Desktop\HTML Projekte\PhotographyPage1'...
+[info] 
+[debug] [2020-05-01T11:25:47.858Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw/webApps/-/config  
+ 
+[debug] [2020-05-01T11:25:48.768Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 11:25:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[info] Shutting down...
+[debug] [2020-05-01T12:01:30.499Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T12:01:30.502Z] Command:       C:\Users\lucas\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\lucas\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2020-05-01T12:01:30.503Z] CLI Version:   8.1.1
+[debug] [2020-05-01T12:01:30.503Z] Platform:      win32
+[debug] [2020-05-01T12:01:30.503Z] Node Version:  v12.16.1
+[debug] [2020-05-01T12:01:30.505Z] Time:          Fri May 01 2020 14:01:30 GMT+0200 (GMT+02:00)
+[debug] [2020-05-01T12:01:30.505Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T12:01:30.505Z] 
+[debug] [2020-05-01T12:01:30.519Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-01T12:01:30.520Z] > authorizing via signed-in user
+[debug] [2020-05-01T12:01:30.520Z] [iam] checking project photopage-lw for permissions ["firebase.projects.get"]
+[debug] [2020-05-01T12:01:30.525Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/photopage-lw:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-01T12:01:31.557Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 12:01:31 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=762","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-01T12:01:31.561Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw  
+ 
+[debug] [2020-05-01T12:01:31.859Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 12:01:32 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\lucas\Desktop\HTML Projekte\PhotographyPage1'...
+[info] 
+[debug] [2020-05-01T12:01:31.871Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw/webApps/-/config  
+ 
+[debug] [2020-05-01T12:01:32.678Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 12:01:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2020-05-01T19:35:47.684Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T19:35:47.687Z] Command:       C:\Users\lucas\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\lucas\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2020-05-01T19:35:47.687Z] CLI Version:   8.1.1
+[debug] [2020-05-01T19:35:47.688Z] Platform:      win32
+[debug] [2020-05-01T19:35:47.688Z] Node Version:  v12.16.1
+[debug] [2020-05-01T19:35:47.689Z] Time:          Fri May 01 2020 21:35:47 GMT+0200 (GMT+02:00)
+[debug] [2020-05-01T19:35:47.689Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T19:35:47.690Z] 
+[debug] [2020-05-01T19:35:47.719Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-01T19:35:47.719Z] > authorizing via signed-in user
+[debug] [2020-05-01T19:35:47.720Z] [iam] checking project photopage-lw for permissions ["firebase.projects.get"]
+[debug] [2020-05-01T19:35:47.723Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-01T19:35:47.723Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-05-01T19:35:47.892Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 19:35:49 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-01T19:35:47.914Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/photopage-lw:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-01T19:35:48.175Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 19:35:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=137","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-01T19:35:48.177Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw  
+ 
+[debug] [2020-05-01T19:35:48.505Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 19:35:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\lucas\Desktop\HTML Projekte\PhotographyPage1'...
+[info] 
+[debug] [2020-05-01T19:35:48.524Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw/webApps/-/config  
+ 
+[debug] [2020-05-01T19:35:49.269Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 19:35:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2020-05-01T19:51:30.283Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T19:51:30.286Z] Command:       C:\Users\lucas\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\lucas\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2020-05-01T19:51:30.287Z] CLI Version:   8.1.1
+[debug] [2020-05-01T19:51:30.287Z] Platform:      win32
+[debug] [2020-05-01T19:51:30.287Z] Node Version:  v12.16.1
+[debug] [2020-05-01T19:51:30.289Z] Time:          Fri May 01 2020 21:51:30 GMT+0200 (GMT+02:00)
+[debug] [2020-05-01T19:51:30.289Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T19:51:30.289Z] 
+[debug] [2020-05-01T19:51:30.302Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-01T19:51:30.303Z] > authorizing via signed-in user
+[debug] [2020-05-01T19:51:30.304Z] [iam] checking project photopage-lw for permissions ["firebase.projects.get"]
+[debug] [2020-05-01T19:51:30.308Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/photopage-lw:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-01T19:51:31.233Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 19:51:32 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=786","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-01T19:51:31.236Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw  
+ 
+[debug] [2020-05-01T19:51:31.557Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 19:51:32 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\lucas\Desktop\HTML Projekte\PhotographyPage1'...
+[info] 
+[debug] [2020-05-01T19:51:31.575Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw/webApps/-/config  
+ 
+[debug] [2020-05-01T19:51:32.238Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 19:51:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[info] Shutting down...
+[debug] [2020-05-02T11:07:10.089Z] ----------------------------------------------------------------------
+[debug] [2020-05-02T11:07:10.092Z] Command:       C:\Users\lucas\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\lucas\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2020-05-02T11:07:10.092Z] CLI Version:   8.2.0
+[debug] [2020-05-02T11:07:10.092Z] Platform:      win32
+[debug] [2020-05-02T11:07:10.093Z] Node Version:  v12.16.1
+[debug] [2020-05-02T11:07:10.094Z] Time:          Sat May 02 2020 13:07:10 GMT+0200 (GMT+02:00)
+[debug] [2020-05-02T11:07:10.094Z] ----------------------------------------------------------------------
+[debug] [2020-05-02T11:07:10.095Z] 
+[debug] [2020-05-02T11:07:10.121Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-02T11:07:10.122Z] > authorizing via signed-in user
+[debug] [2020-05-02T11:07:10.122Z] [iam] checking project photopage-lw for permissions ["firebase.projects.get"]
+[debug] [2020-05-02T11:07:10.127Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-02T11:07:10.128Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-05-02T11:07:10.321Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 02 May 2020 11:07:11 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-02T11:07:10.364Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/photopage-lw:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-02T11:07:11.249Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 02 May 2020 11:07:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=776","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-02T11:07:11.254Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw  
+ 
+[debug] [2020-05-02T11:07:11.655Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 02 May 2020 11:07:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'C:\Users\lucas\Desktop\HTML Projekte\PhotographyPage1'...
+[info] 
+[debug] [2020-05-02T11:07:11.709Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/photopage-lw/webApps/-/config  
+ 
+[debug] [2020-05-02T11:07:12.354Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 02 May 2020 11:07:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000

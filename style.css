@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Die BIlder haben ein anderes Verhältnis wegen border-box, da das Padding das Verhältnis ändert*/
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+#gallery{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    padding: 1.5%;
+    background-color: white;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.horizontal{
+    width: auto;
+    max-width: 100vw;
+    max-height: 80vh;
+}
+
+.vertical{
+    width: auto;
+    max-width: 100vw;
+    max-height: 80vh;
+}
+
+.material-icons{
+    position: absolute;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#arrow_right{
+    right: 10%;
+    color: white;
+}
+
+#arrow_left{
+    left: 10%;
+    color: white;
+}
+
+#upload_button{
+    position: absolute;
+    bottom: 2%;
+}
+
+header{
+    padding-top: 20px;
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ul{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+a{
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+main{
+    width: 100%;
+    min-height: 80vh;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#festival{
+    width: 95%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hamburger{
+    display: none;
+    position: relative;
+    padding: 15px 10px 10px 10px;
+}
+
+
+@media screen and (max-width: 750px){
+    main{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .right{
+        width: 95vw;
+    }
+
+    .toggle{
+        display: none;
+    }
+
+    #hamburger{
+        display: inline-block;
+    }
+
+    ul{
+        text-align: right;
+    }
+}
